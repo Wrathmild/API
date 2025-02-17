@@ -1,115 +1,31 @@
 {
-    "Import": [
-        {
-            "u_hostname": "LAPTOP-001",
-            "u_model": "Dell Latitude 7420",
-            "u_status": "In Use",
-            "u_assigned_to": "john.doe@example.com",
-            "u_asset_tag": "AT-001",
-            "u_serial_number": "ABC123XYZ",
-            "u_location": "New York",
-            "u_manufacturer": "Dell",
-            "u_category": "Laptop"
-        },
-        {
-            "u_hostname": "LAPTOP-002",
-            "u_model": "HP EliteBook 850 G8",
-            "u_status": "In Use",
-            "u_assigned_to": "jane.smith@example.com",
-            "u_asset_tag": "AT-002",
-            "u_serial_number": "HP123456789",
-            "u_location": "Los Angeles",
-            "u_manufacturer": "HP",
-            "u_category": "Laptop"
-        },
-        {
-            "u_hostname": "LAPTOP-003",
-            "u_model": "Lenovo ThinkPad X1 Carbon",
-            "u_status": "In Use",
-            "u_assigned_to": "alex.johnson@example.com",
-            "u_asset_tag": "AT-003",
-            "u_serial_number": "LEN12345ABC",
-            "u_location": "Chicago",
-            "u_manufacturer": "Lenovo",
-            "u_category": "Laptop"
-        },
-        {
-            "u_hostname": "LAPTOP-004",
-            "u_model": "Apple MacBook Pro M1",
-            "u_status": "In Use",
-            "u_assigned_to": "lisa.williams@example.com",
-            "u_asset_tag": "AT-004",
-            "u_serial_number": "MBP2022XYZ",
-            "u_location": "San Francisco",
-            "u_manufacturer": "Apple",
-            "u_category": "Laptop"
-        },
-        {
-            "u_hostname": "LAPTOP-005",
-            "u_model": "Microsoft Surface Laptop 4",
-            "u_status": "In Use",
-            "u_assigned_to": "michael.brown@example.com",
-            "u_asset_tag": "AT-005",
-            "u_serial_number": "MSFT987654321",
-            "u_location": "Seattle",
-            "u_manufacturer": "Microsoft",
-            "u_category": "Laptop"
-        },
-        {
-            "u_hostname": "LAPTOP-006",
-            "u_model": "Acer Aspire 5",
-            "u_status": "In Use",
-            "u_assigned_to": "chris.miller@example.com",
-            "u_asset_tag": "AT-006",
-            "u_serial_number": "ACER0011223344",
-            "u_location": "Austin",
-            "u_manufacturer": "Acer",
-            "u_category": "Laptop"
-        },
-        {
-            "u_hostname": "LAPTOP-007",
-            "u_model": "ASUS ZenBook 14",
-            "u_status": "In Use",
-            "u_assigned_to": "stephanie.davis@example.com",
-            "u_asset_tag": "AT-007",
-            "u_serial_number": "ASUS0987654321",
-            "u_location": "Boston",
-            "u_manufacturer": "ASUS",
-            "u_category": "Laptop"
-        },
-        {
-            "u_hostname": "LAPTOP-008",
-            "u_model": "Samsung Galaxy Book",
-            "u_status": "In Use",
-            "u_assigned_to": "paul.wilson@example.com",
-            "u_asset_tag": "AT-008",
-            "u_serial_number": "SAMSUNG7654321",
-            "u_location": "Denver",
-            "u_manufacturer": "Samsung",
-            "u_category": "Laptop"
-        },
-        {
-            "u_hostname": "LAPTOP-009",
-            "u_model": "Razer Blade 15",
-            "u_status": "In Use",
-            "u_assigned_to": "david.anderson@example.com",
-            "u_asset_tag": "AT-009",
-            "u_serial_number": "RAZER1234GAMER",
-            "u_location": "Miami",
-            "u_manufacturer": "Razer",
-            "u_category": "Gaming Laptop"
-        },
-        {
-            "u_hostname": "LAPTOP-010",
-            "u_model": "Dell XPS 13",
-            "u_status": "In Use",
-            "u_assigned_to": "emma.thomas@example.com",
-            "u_asset_tag": "AT-010",
-            "u_serial_number": "DELLXPS2023",
-            "u_location": "Houston",
-            "u_manufacturer": "Dell",
-            "u_category": "Ultrabook"
-        }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
-
