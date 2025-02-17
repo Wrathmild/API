@@ -1,0 +1,15 @@
+{
+    "Import": [
+        {
+            "u_hostname": "LAPTOP-001",
+            "u_model": "Dell Latitude 7420",
+            "u_status": "In Use",
+            "u_assigned_to": "john.doe@example.com",
+            "u_asset_tag": "AT-001",
+            "u_serial_number": "ABC123XYZ",
+            "u_location": "New York",
+            "u_manufacturer": "Dell",
+            "u_category": "Laptop"
+        }
+    ]
+}
