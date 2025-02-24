@@ -1,22 +1,24 @@
 {
-    "Id": "0115F8C5-BAB-A9B9-8236474D067C",
-    "DisplayName": "T-0900-493 Dell Latitude 5550 [ G4 Schulung ]",
-    "HostName": "T-0900-44193",
-    "Domain": "ad.gfgfdhnit.net",
-    "PrimaryMAC": "C4:47:4E:hfg4B:07:8F",
-    "OperatingSystem": "Windows 11",
-    "CPUDescription": "Intel(R) Core(TM) Ultra 7 165U",
-    "CPUSpeed": 2680,
-    "TotalMemory": 32213,
-    "DriveCSize": 486883,
-    "DriveCFree": 391929,
-    "Manufacturer": "Dell Inc.",
-    "ModelName": "Latitude 5550",
-    "SerialNumber": "GXYTCCR54",
-    "TPMData": {
-      "Version": "2.0",
-      "TPMStatus": 2,
-      "IsOwned": true
+    "Computer": [
+    {
+        "Id": "0115F8C5-BAB-A9B9-8236474D067C",
+        "DisplayName": "T-0900-493 Dell Latitude 5550 [ G4 Schulung ]",
+        "HostName": "T-0900-44193",
+        "Domain": "ad.gfgfdhnit.net",
+        "PrimaryMAC": "C4:47:4E:hfg4B:07:8F",
+        "OperatingSystem": "Windows 11",
+        "CPUDescription": "Intel(R) Core(TM) Ultra 7 165U",
+        "CPUSpeed": 2680,
+        "TotalMemory": 32213,
+        "DriveCSize": 486883,
+        "DriveCFree": 391929,
+        "Manufacturer": "Dell Inc.",
+        "ModelName": "Latitude 5550",
+        "SerialNumber": "GXYTCCR54",
+        "TPMData": {
+          "Version": "2.0",
+          "TPMStatus": 2,
+          "IsOwned": true
     },
     "IsSecureBootEnabled": true,
     "StorageMedia": [
