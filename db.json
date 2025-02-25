@@ -1,48 +1,13 @@
 {
-  "Computers": [
-    {
-      "Id": "0115F8C5-BAB-A9B9-8236474D067C",
-      "DisplayName": "T-0900-493 Dell Latitude 5550 [ G4 Schulung ]",
-      "HostName": "T-0900-44193",
-      "Domain": "ad.gfgfdhnit.net",
-      "PrimaryMAC": "C4:47:4E:4B:07:8F",
-      "OperatingSystem": "Windows 11",
-      "CPUDescription": "Intel(R) Core(TM) Ultra 7 165U",
-      "CPUSpeed": 2680,
-      "TotalMemory": 32213,
-      "DriveCSize": 486883,
-      "DriveCFree": 391929,
-      "Manufacturer": "Dell Inc.",
-      "ModelName": "Latitude 5550",
-      "SerialNumber": "GXYTCCR54",
-      "TPMData": {
-        "Version": "2.0",
-        "TPMStatus": 2,
-        "IsOwned": true
-      },
-      "IsSecureBootEnabled": true,
-      "StorageMedia": [
-        {
-          "Name": "PM91a Samng 512GB",
-          "ByteSize": 512110190592,
-          "PartitionStyle": 2,
-          "StorageVolumes": [
-            {
-              "Label": "BOOT",
-              "FileSystem": "FAT32",
-              "ByteSize": 362807296,
-              "ByteSizeRemaining": 307085312
-            },
-            {
-              "Label": "System",
-              "FileSystem": "NTFS",
-              "ByteSize": 510534873088,
-              "ByteSizeRemaining": 410967552000
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "posts": [
+    { "id": "1", "title": "a title", "views": 100 },
+    { "id": "2", "title": "another title", "views": 200 }
+  ],
+  "comments": [
+    { "id": "1", "text": "a comment about post 1", "postId": "1" },
+    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
-
